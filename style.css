@@ -1,0 +1,41 @@
+.profile{
+    height:500px;
+    width:700px;
+    margin:auto;
+    margin-top:20px;
+    position:relative;
+}
+    .profile img:nth-child(1) {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        position: absolute;
+        top: 0px;
+        margin: auto;
+        bottom: 0px;
+        left: 0px;
+        border: 10px solid white;
+    }
+    .profile img:nth-child(2) {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        position: absolute;
+        top: 0px;
+        margin: auto;
+        bottom: 0px;
+        right: 0px;
+        border:10px solid white;
+    }
+    .profile img:nth-child(3) {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        position: absolute;
+        right: 0px;
+        margin: auto;
+        bottom: 0px;
+        left: 0px;
+        top: 0px;
+        border: 10px solid white;
+    }
